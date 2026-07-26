@@ -1,74 +1,162 @@
 <div align="center">
 
+<p align="center">
+  <img src="https://media.giphy.com/media/dLolp8dtrYCJi/giphy.gif" width="100%" alt="Mr. Robot" />
+</p>
+
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Security+%26+Low-Level+Research;Android+%2F+ARM64+Internals;AI+Agents+%26+Autonomous+Systems;Reverse+Engineering+%26+Exploitation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Security+Researcher+%26+Tool+Builder;Android+%2F+ARM64+Low-Level+Hacking;Network+Recon+%26+Exploitation;Reverse+Engineering+%2F+Binary+Patching;%22Hello+friend...%22" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/Sleep6ixteen?style=for-the-badge&color=58a6ff&labelColor=0d1117)](https://github.com/Sleep6ixteen)
-[![Profile views](https://komarev.com/ghpvc/?username=Sleep6ixteen&style=for-the-badge&color=58a6ff&labelColor=0d1117)](https://github.com/Sleep6ixteen)
+[![GitHub followers](https://img.shields.io/github/followers/Sleep6ixteen?style=for-the-badge&color=00ff41&labelColor=0d1117&logo=github)](https://github.com/Sleep6ixteen)
+[![Profile views](https://komarev.com/ghpvc/?username=Sleep6ixteen&style=for-the-badge&color=00ff41&labelColor=0d1117)](https://github.com/Sleep6ixteen)
 
 </div>
 
 ---
 
-## O que faço
+```
+whoami
+───────────────────────────────────────────────────────────────
+  Pesquisador de segurança ofensiva com foco em sistemas de
+  baixo nível — drivers Android, kernels ARM64, protocolos
+  de rede e engenharia reversa de binários nativos.
 
-Trabalho na interseção entre segurança ofensiva, sistemas de baixo nível e inteligência artificial. A maior parte do meu tempo vai para entender como as coisas funcionam por dentro — drivers, kernels, protocolos — e construir ferramentas que resolvem problemas reais a partir disso.
+  Construo ferramentas do zero. Se preciso entender como algo
+  funciona por dentro, abro no radare2 e leio o assembly.
 
-Tenho foco especial em Android/ARM64: desde compilação de kernels customizados e engenharia reversa de binários nativos até contornar camadas de proteção do sistema para habilitar recursos que o fabricante bloqueou. Faço isso sem root quando possível — o desafio é exatamente esse.
-
-Em paralelo, desenvolvimento de agentes autônomos de IA é outro eixo forte do meu trabalho. Construí do zero um ecossistema completo de orquestração de agentes em Go, com daemon persistente, loop cognitivo ReAct e suporte a múltiplos workspaces.
+  Sem root quando possível. O desafio é exatamente esse.
+───────────────────────────────────────────────────────────────
+```
 
 ---
 
-## Projetos em destaque
+## 🔧 Projetos
+
+<table>
+<tr>
+<td width="50%">
 
 ### ⚡ [hascat](https://github.com/Sleep6ixteen/hascat)
-hashcat rodando com aceleração de GPU real no Termux, sem root.  
-O chip PowerVR BXM-8-256 do MediaTek MT6855 tem o driver OpenCL bloqueado por 4 camadas independentes do Android. Contornei todas via hooking de namespace do linker, interceptação de propriedades de build e redirecionamento do gate do gralloc. Resultado: **181 MH/s em NTLM** num celular comum, direto do terminal.
+hashcat com GPU real no Termux, sem root.
 
-### 🤖 Crom Agent *(privado)*
-Motor de agentes autônomos local-first, escrito em Go.  
-Daemon com loop cognitivo ReAct, orquestração multi-agente em goroutines paralelas, suporte a MCP (Model Context Protocol), sandbox ajustável e sistema Human-in-the-Loop. Parte de um ecossistema modular com CLI, SDK, app desktop (Tauri + React) e gateway de LLMs em nuvem.
+O driver OpenCL do PowerVR BXM-8-256 está bloqueado por **4 camadas independentes** do Android. Contornei todas: namespace do linker, propriedades de build (`userdebug`), gate do gralloc (`-22`) e patch de local memory no hashcat.
 
-### 🔬 Deep Eye *(pesquisa)*
-Framework de análise de segurança com integração a múltiplos provedores de IA.  
-Focado em reconhecimento, fingerprinting e análise automatizada de alvos.
+**181 MH/s em NTLM** num celular comum.
 
-### 🧠 Neural Bot / IA-Torch *(experimental)*
-Experimentos com redes neurais em PyTorch para comportamento autônomo.  
-Inclui série de iterações (`IA-torch.py` → `IA-torch-11.py`) testando arquiteturas diferentes para agentes com memória e auto-melhoria.
+`C` `ARM64` `OpenCL` `LD_PRELOAD` `Radare2`
+
+</td>
+<td width="50%">
+
+### 👻 Phantom Engine
+Suite de reconhecimento e varredura stealth.
+
+Motor adaptativo com jitter randômico, rotação de User-Agent, fingerprinting passivo de OS, fuzzing de paths, probe UDP/SNMP/RPC e análise de timing de portas. Projetado para evadir detecção por anomalia de padrão.
+
+`Python` `Scapy` `Network` `OSINT` `Evasion`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🗺️ osint-map
+Mapa mundial no terminal com geolocalização por IP.
+
+Escrito em Go, renderiza mapa responsivo com blocos Unicode, crosshairs e coordenadas exatas. Integrado ao `pxcli` para pixel art no terminal.
+
+`Go` `CLI` `OSINT` `Unicode` `Geolocation`
+
+</td>
+<td width="50%">
+
+### 🔍 Deep Eye
+Scanner de vulnerabilidades com IA multi-provider.
+
+Integra OpenAI, Claude, Grok, Ollama e Mistral para geração inteligente de payloads, reconhecimento passivo e relatórios PDF/HTML. 45+ métodos de ataque, awareness de CVE.
+
+`Python` `AI` `Pentest` `Recon` `Bug Hunting`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📡 Scanner Stealth (Go)
+Port scanner com anti-detecção nativo.
+
+Jitter de 500ms–2s por conexão para confundir sistemas de detecção por anomalia. Concorrência controlada com goroutines e sync.WaitGroup.
+
+`Go` `Networking` `Evasion` `Concurrency`
+
+</td>
+<td width="50%">
+
+### 🛡️ DNS Monitor
+Monitor de DNS com evasão de análise estática.
+
+Domínios de rastreamento ofuscados em Base64 no binário para evitar strings detectáveis. Resolução e análise de tráfego DNS em tempo real.
+
+`Python` `DNS` `Network` `Obfuscation`
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Stack
+## 🛠️ Arsenal
 
-```
-Linguagens    Go · Python · C · Bash · JavaScript
-Plataformas   Android (ARM64/aarch64) · Linux · Termux
-Segurança     Reverse Engineering · Fuzzing · Network Recon · Binary Patching
-Android       Kernel Build · Driver Hooking · OpenCL · LD_PRELOAD · Frida
-IA / ML       PyTorch · LLM Agents · ReAct Loop · MCP · RAG
-Ferramentas   Radare2 · Frida · Metasploit · Nuclei · Burp · Nmap · Masscan
-```
+<div align="center">
+
+| Categoria | Ferramentas |
+|-----------|-------------|
+| **Linguagens** | Go · Python · C · Bash · JavaScript |
+| **RE / Binary** | Radare2 · Frida · GDB · strace · ltrace |
+| **Recon** | Amass · Subfinder · httpx · nuclei · katana · gau · ffuf |
+| **Exploitation** | Metasploit · Hydra · ncrack · Burp Suite |
+| **Network** | Nmap · Masscan · Responder · Wireshark · Scapy |
+| **Android** | Kernel Build · LD_PRELOAD · OpenCL · ADB · apktool |
+| **Platform** | Android ARM64 · Linux · Termux |
+
+</div>
 
 ---
 
-## Áreas de interesse
+## 📊 Stats
 
-- Internals de Android e drivers de hardware proprietários
-- Desenvolvimento de agentes autônomos de IA com raciocínio estruturado
-- Segurança ofensiva: reconhecimento, exploração e pós-exploração
-- Compilação e modificação de kernels para dispositivos ARM
-- Engenharia reversa de binários nativos (ARM64, x86_64)
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Sleep6ixteen&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sleep6ixteen&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9" />
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Sleep6ixteen&theme=terminal&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🔬 Áreas de pesquisa
+
+```python
+research = {
+    "android_internals": ["kernel build", "driver hooking", "OpenCL", "namespace linker"],
+    "offensive_security": ["recon", "exploitation", "post-exploitation", "evasion"],
+    "reverse_engineering": ["ARM64 disasm", "binary patching", "hook injection"],
+    "network": ["stealth scanning", "protocol fingerprinting", "traffic analysis"],
+    "tooling": ["CLI tools in Go", "automation frameworks", "custom scanners"],
+}
+```
 
 ---
 
 <div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sleep6ixteen&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Sleep6ixteen)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sleep6ixteen&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)](https://github.com/Sleep6ixteen)
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff41&height=80&section=footer&fontColor=00ff41" />
 </div>
