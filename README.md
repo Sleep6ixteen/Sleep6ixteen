@@ -27,8 +27,8 @@
 
 <div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/Sleep6ixteen?style=for-the-badge&color=00ff41&labelColor=0d1117&logo=github&logoColor=00ff41)](https://github.com/Sleep6ixteen?tab=followers)
-[![](https://komarev.com/ghpvc/?username=Sleep6ixteen&style=for-the-badge&color=00ff41&labelColor=0d1117)](https://github.com/Sleep6ixteen)
+[![GitHub followers](https://img.shields.io/github/followers/W3skerSec?style=for-the-badge&color=00ff41&labelColor=0d1117&logo=github&logoColor=00ff41)](https://github.com/W3skerSec?tab=followers)
+[![](https://komarev.com/ghpvc/?username=W3skerSec&style=for-the-badge&color=00ff41&labelColor=0d1117)](https://github.com/W3skerSec)
 
 </div>
 
@@ -36,13 +36,13 @@
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Sleep6ixteen&theme=terminal&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=555555&stroke=1a1a1a)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=W3skerSec&theme=terminal&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=555555&stroke=1a1a1a)](https://git.io/streak-stats)
 
 </div>
 
 <div align="center">
 
-![Sleep6ixteen's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Sleep6ixteen&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true)
+![Sleep6ixteen's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=W3skerSec&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true)
 
 </div>
 
