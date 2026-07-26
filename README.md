@@ -25,6 +25,18 @@
 
 <div align="center">
 
+[![🎵 Farben — Ultra Slowed](https://img.shields.io/badge/🎵_trilha_sonora-Farben_Ultra_Slowed-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD)
+
+<a href="https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD">
+  <img src="https://spotify-readme-api-roan.vercel.app/api/spotify/embed?track=2Y50G9HLHlNql9OlK5a3yD&theme=dark" alt="Farben Ultra Slowed" width="400" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
 [![GitHub followers](https://img.shields.io/github/followers/Sleep6ixteen?style=for-the-badge&color=00ff41&labelColor=0d1117&logo=github&logoColor=00ff41)](https://github.com/Sleep6ixteen?tab=followers)
 [![](https://komarev.com/ghpvc/?username=Sleep6ixteen&style=for-the-badge&color=00ff41&labelColor=0d1117)](https://github.com/Sleep6ixteen)
 
