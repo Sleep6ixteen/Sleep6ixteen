@@ -25,11 +25,14 @@
 
 <div align="center">
 
-[![Farben Ultra Slowed](https://img.shields.io/badge/trilha_sonora-Farben_Ultra_Slowed-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD)
+[![Spotify](https://img.shields.io/badge/trilha__sonora-Farben_Ultra_Slowed-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD)
 
 <a href="https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD">
-  <img src="https://spotify-readme-api-roan.vercel.app/api/spotify/embed?track=2Y50G9HLHlNql9OlK5a3yD&theme=dark" alt="Farben Ultra Slowed" width="400" />
+  <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02719ce7f23b5caef6357f7619" width="180" style="border-radius:12px" alt="Farben Ultra Slowed" />
 </a>
+
+<br/>
+<sub>🎵 Orange Sector — Farben (Ultra Slowed)</sub>
 
 </div>
 
