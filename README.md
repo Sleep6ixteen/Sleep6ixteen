@@ -25,7 +25,7 @@
 
 <div align="center">
 
-[![🎵 Farben — Ultra Slowed](https://img.shields.io/badge/🎵_trilha_sonora-Farben_Ultra_Slowed-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD)
+[![Farben Ultra Slowed](https://img.shields.io/badge/trilha_sonora-Farben_Ultra_Slowed-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD)
 
 <a href="https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD">
   <img src="https://spotify-readme-api-roan.vercel.app/api/spotify/embed?track=2Y50G9HLHlNql9OlK5a3yD&theme=dark" alt="Farben Ultra Slowed" width="400" />
