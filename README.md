@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1200&color=00FF41&center=true&vCenter=true&width=750&lines=Se+tem+driver%2C+tem+um+jeito.;ARM64+%2F+Android+%2F+sem+root.+De+prop%C3%B3sito.;Eu+n%C3%A3o+queimo+sistemas.+Eu+entendo+como+pensam.;O+root+%C3%A9+s%C3%B3+o+come%C3%A7o+da+conversa.;Hello+friend..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1200&color=00FF41&center=true&vCenter=true&width=750&lines=Se+tem+driver%2C+tem+um+jeito.;ARM64+%2F+Android+%2F+sem+root.+De+prop%C3%B3sito.;Assembly+n%C3%A3o+mente.;O+root+%C3%A9+s%C3%B3+o+come%C3%A7o+da+conversa.;Hello+friend..." alt="Typing SVG" />
 </div>
 
 <br/>
@@ -18,11 +18,11 @@
   Trabalho com segurança ofensiva e sistemas de baixo nível.
   Meu ambiente principal é Android — ARM64, Termux, sem root.
 
-  Já desbloqueei um driver OpenCL que estava protegido
-  por 4 camadas independentes do sistema. Não porque precisava.
+  Já desbloqueei um driver OpenCL protegido por 4 camadas
+  independentes do sistema. Não porque precisava.
   Porque ninguém disse que era possível.
 
-  Construo ferramentas, queimo assembly no radare2
+  Construo ferramentas, leio assembly no radare2
   e documento tudo que os outros desistem no meio.
 ```
 
