@@ -17,7 +17,7 @@
 <div align="center">
 
 ```
-  Trabalho com segurança ofensiva e sistemas de baixo nível.
+  Segurança ofensiva e engenharia reversa.
   Meu ambiente principal é Android — ARM64.
 ```
 
