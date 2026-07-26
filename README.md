@@ -1,11 +1,13 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/dLolp8dtrYCJi/giphy.gif" width="100%" alt="Mr. Robot" />
-</div>
 
-<br/>
+<a href="https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD">
+  <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02719ce7f23b5caef6357f7619" width="220" alt="Farben Ultra Slowed" />
+</a>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1200&color=00FF41&center=true&vCenter=true&width=750&lines=Se+tem+driver%2C+tem+um+jeito.;Assembly+n%C3%A3o+mente.;O+root+%C3%A9+s%C3%B3+o+come%C3%A7o+da+conversa.;Hello+friend..." alt="Typing SVG" />
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1200&color=00FF41&center=true&vCenter=true&width=750&lines=Se+tem+driver%2C+tem+um+jeito.;Assembly+n%C3%A3o+mente.;O+root+%C3%A9+s%C3%B3+o+come%C3%A7o+da+conversa.;Hello+friend..." alt="Typing SVG" />
+
 </div>
 
 <br/>
@@ -18,21 +20,6 @@
   Trabalho com segurança ofensiva e sistemas de baixo nível.
   Meu ambiente principal é Android — ARM64.
 ```
-
-</div>
-
----
-
-<div align="center">
-
-[![Spotify](https://img.shields.io/badge/trilha__sonora-Farben_Ultra_Slowed-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD)
-
-<a href="https://open.spotify.com/track/2Y50G9HLHlNql9OlK5a3yD">
-  <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02719ce7f23b5caef6357f7619" width="180" style="border-radius:12px" alt="Farben Ultra Slowed" />
-</a>
-
-<br/>
-<sub>🎵 Orange Sector — Farben (Ultra Slowed)</sub>
 
 </div>
 
